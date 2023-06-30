@@ -325,6 +325,15 @@ form input[type = "submit"] {
     bottom: 4rem;
 }
 @media screen and (max-width: 667px) {
+    .container {
+        padding: 30px 20px;
+    }
+    .main-title h2 {
+        font-size: 30px;
+    }
+    .logo {
+        font-size: 25px;
+    }
     .toggle-menu {
         display: block;
         position: fixed;
@@ -395,7 +404,10 @@ form input[type = "submit"] {
         text-align: left;
     }
     .intro-text h1 {
-        font-size: 34px;
+        font-size: 25px;
+    }
+    .intro-text p {
+        font-size: 15px;
     }
     .about-container,
     .work-container,
